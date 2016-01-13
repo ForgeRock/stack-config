@@ -1,0 +1,29 @@
+---
+# Sample OpenAM policies in yml format
+- name: test1
+  description: test policy1
+  resources: ["*://acme.com:*/*"]
+  applicationName: iPlanetAMWebAgentService
+  actionValues: {HEAD: true, GET: true}
+  subject:  { "type": "Identity", "subjectValues": [ "uid=demo,ou=People,dc=example,dc=com"] }
+  condition: {type: SessionProperty, ignoreValueCase: true, properties: {foo: [bar]}}
+  resourceTypeUuid: 76656a38-5f8e-401b-83aa-4ccb74ce88d2
+  resourceAttributes: [{type: User, propertyName: distinguishedName, propertyValues: []}]
+- name: test2
+  description: test policy2
+  resources: ["*://foo.com:*/*"]
+  applicationName: iPlanetAMWebAgentService
+  actionValues: {HEAD: true, GET: true}
+  subject:  { "type": "Identity", "subjectValues": [ "uid=demo,ou=People,dc=example,dc=com"] }
+  condition: {type: SessionProperty, ignoreValueCase: true, properties: {foo: [bar]}}
+  resourceTypeUuid: 76656a38-5f8e-401b-83aa-4ccb74ce88d2
+  resourceAttributes: [{type: User, propertyName: distinguishedName, propertyValues: []}]
+- name: test3
+  description: test policy3
+  resources: ["*://bar.com:*/*"]
+  applicationName: iPlanetAMWebAgentService
+  actionValues: {HEAD: true, GET: true}
+  subject:  { "type": "Identity", "subjectValues": [ "uid=demo,ou=People,dc=example,dc=com"] }
+  condition: {type: SessionProperty, ignoreValueCase: true, properties: {foo: [bar]}}
+  resourceTypeUuid: 76656a38-5f8e-401b-83aa-4ccb74ce88d2
+  resourceAttributes: [{type: User, propertyName: distinguishedName, propertyValues: []}]
