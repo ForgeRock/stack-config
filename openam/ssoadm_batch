@@ -1,0 +1,35 @@
+#!/bin/bash - this is not a shell script but this is here
+# so the IDE thinks it is -for comment/ uncomment
+#notes: need realm -e
+list-servers
+show-agent -b apache -e / -o yy
+
+
+#ssoadm create-agent --options [--global-options]
+# Options
+# --adminid, -u
+# Administrator ID of running the command.
+#
+# --agentname, -b
+# Name of agent.
+#
+# --agenttype, -t
+# Type of agent. Possible values: J2EEAgent, WebAgent, 2.2_Agent, SharedAgent, OAuth2Client
+#
+# --password-file, -f
+# File name that contains password of administrator.
+#
+# --realm, -e
+# Name of realm.
+#
+# [--agenturl, -g]
+# Agent URL. e.g. http://www.agent.example:8080/agent. WebAgent does not take URL with path. e.g. http://www.agent.example:8080. This option is valid only for J2EEAgent and WebAgent agent types, and is required when the agent type is J2EEAgent or WebAgent.
+#
+# [--attributevalues, -a]
+# Properties e.g. sunIdentityServerDeviceKeyValue=https://agent.example.com:443/
+#
+# [--datafile, -D]
+# Name of file that contains properties.
+#
+# [--serverurl, -s]
+# Server URL. e.g. http://www.example.com:58080/openam. This option is valid only for J2EEAgent and WebAgent agent types, and is required when the agent type is J2EEAgent or WebAgent
