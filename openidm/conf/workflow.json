@@ -1,0 +1,5 @@
+{
+    "_id" : "workflow",
+    "useDataSource" : "default",
+    "workflowDirectory" : "/Users/warren/packages/openidm/workflow"
+}

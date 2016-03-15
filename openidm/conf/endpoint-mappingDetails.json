@@ -1,0 +1,6 @@
+{
+    "_id" : "endpoint/mappingDetails",
+    "type" : "text/javascript",
+    "context" : "endpoint/mappingDetails",
+    "file" : "ui/mappingDetails.js"
+}

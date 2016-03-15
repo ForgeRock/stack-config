@@ -1,0 +1,5 @@
+{
+    "_id" : "endpoint/usernotifications",
+    "type" : "text/javascript",
+    "file" : "ui/notification/userNotifications.js"
+}

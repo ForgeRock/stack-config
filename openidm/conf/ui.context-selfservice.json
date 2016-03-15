@@ -1,0 +1,7 @@
+{
+    "_id" : "ui.context/selfservice",
+    "enabled" : true,
+    "urlContextRoot" : "/",
+    "defaultDir" : "/Users/warren/packages/openidm/ui/selfservice/default",
+    "extensionDir" : "/Users/warren/packages/openidm/ui/selfservice/extension"
+}
