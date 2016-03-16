@@ -1,19 +1,16 @@
 {
-    "_id" : "process/access",
-    "workflowAccess" : [
-        {
-            "propertiesCheck" : {
-                "property" : "_id",
-                "matches" : ".*",
-                "requiresRole" : "openidm-authorized"
-            }
-        },
-        {
-            "propertiesCheck" : {
-                "property" : "_id",
-                "matches" : ".*",
-                "requiresRole" : "openidm-admin"
-            }
-        }
-    ]
+  "_id" : "process/access",
+  "workflowAccess" : [ {
+    "propertiesCheck" : {
+      "property" : "_id",
+      "matches" : ".*",
+      "requiresRole" : "openidm-authorized"
+    }
+  }, {
+    "propertiesCheck" : {
+      "property" : "_id",
+      "matches" : ".*",
+      "requiresRole" : "openidm-admin"
+    }
+  } ]
 }

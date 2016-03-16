@@ -1,6 +1,6 @@
 {
-    "_id" : "endpoint/openam",
-    "context" : "endpoint/openam/*",
-    "type" : "text/javascript",
-    "file" : "ui/openamProxy.js"
+  "_id" : "endpoint/openam",
+  "context" : "endpoint/openam/*",
+  "type" : "text/javascript",
+  "file" : "ui/openamProxy.js"
 }

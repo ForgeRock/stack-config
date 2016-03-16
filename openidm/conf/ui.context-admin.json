@@ -1,7 +1,7 @@
 {
-    "_id" : "ui.context/admin",
-    "enabled" : true,
-    "urlContextRoot" : "/admin",
-    "defaultDir" : "/Users/warren/packages/openidm/ui/admin/default",
-    "extensionDir" : "/Users/warren/packages/openidm/ui/admin/extension"
+  "_id" : "ui.context/admin",
+  "enabled" : true,
+  "urlContextRoot" : "/admin",
+  "defaultDir" : "/opt/openidm/ui/admin/default",
+  "extensionDir" : "/opt/openidm/ui/admin/extension"
 }

@@ -1,6 +1,6 @@
 {
-    "_id" : "endpoint/oauthproxy",
-    "context" : "endpoint/oauthproxy",
-    "type" : "text/javascript",
-    "file" : "ui/oauthProxy.js"
+  "_id" : "endpoint/oauthproxy",
+  "context" : "endpoint/oauthproxy",
+  "type" : "text/javascript",
+  "file" : "ui/oauthProxy.js"
 }
