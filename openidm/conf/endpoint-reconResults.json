@@ -1,6 +1,5 @@
 {
-  "_id" : "endpoint/reconResults",
-  "type" : "text/javascript",
-  "context" : "endpoint/reconResults",
-  "file" : "ui/reconResults.js"
+    "type" : "text/javascript",
+    "context" : "endpoint/reconResults",
+    "file" : "ui/reconResults.js"
 }

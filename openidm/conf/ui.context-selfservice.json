@@ -1,7 +1,6 @@
 {
-  "_id" : "ui.context/selfservice",
-  "enabled" : true,
-  "urlContextRoot" : "/",
-  "defaultDir" : "/opt/openidm/ui/selfservice/default",
-  "extensionDir" : "/opt/openidm/ui/selfservice/extension"
+    "enabled" : true,
+    "urlContextRoot" : "/",
+    "defaultDir" : "&{launcher.install.location}/ui/selfservice/default",
+    "extensionDir" : "&{launcher.install.location}/ui/selfservice/extension"
 }

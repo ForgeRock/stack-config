@@ -1,5 +1,4 @@
 {
-  "_id" : "workflow",
-  "useDataSource" : "default",
-  "workflowDirectory" : "/opt/openidm/workflow"
+    "useDataSource" : "default",
+    "workflowDirectory" : "&{launcher.project.location}/workflow"
 }

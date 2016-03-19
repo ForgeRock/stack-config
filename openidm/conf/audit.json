@@ -1,45 +1,86 @@
 {
-  "_id" : "audit",
-  "auditServiceConfig" : {
-    "handlerForQueries" : "repo",
-    "availableAuditEventHandlers" : [ "org.forgerock.audit.handlers.elasticsearch.ElasticsearchAuditEventHandler", "org.forgerock.audit.handlers.csv.CsvAuditEventHandler", "org.forgerock.openidm.audit.impl.RepositoryAuditEventHandler", "org.forgerock.openidm.audit.impl.RouterAuditEventHandler" ],
-    "filterPolicies" : {
-      "value" : {
-        "excludeIf" : [ "/access/http/request/headers/Authorization", "/access/http/request/headers/X-OpenIDM-Password", "/access/http/request/cookies/session-jwt", "/access/http/response/headers/Authorization", "/access/http/response/headers/X-OpenIDM-Password" ],
-        "includeIf" : [ ]
-      }
-    }
-  },
-  "eventHandlers" : [ {
-    "class" : "org.forgerock.audit.handlers.csv.CsvAuditEventHandler",
-    "config" : {
-      "name" : "csv",
-      "logDirectory" : "/opt/openidm/audit",
-      "topics" : [ "access", "activity", "recon", "sync", "authentication", "config" ]
-    }
-  }, {
-    "class" : "org.forgerock.openidm.audit.impl.RepositoryAuditEventHandler",
-    "config" : {
-      "name" : "repo",
-      "topics" : [ "access", "activity", "recon", "sync", "authentication", "config" ]
-    }
-  } ],
-  "eventTopics" : {
-    "config" : {
-      "filter" : {
-        "actions" : [ "create", "update", "delete", "patch", "action" ]
-      }
+    "auditServiceConfig" : {
+        "handlerForQueries" : "repo",
+        "availableAuditEventHandlers" : [
+            "org.forgerock.audit.handlers.elasticsearch.ElasticsearchAuditEventHandler",
+            "org.forgerock.audit.handlers.csv.CsvAuditEventHandler",
+            "org.forgerock.openidm.audit.impl.RepositoryAuditEventHandler",
+            "org.forgerock.openidm.audit.impl.RouterAuditEventHandler"
+        ],
+        "filterPolicies" : {
+            "value" : {
+                "excludeIf" : [
+                    "/access/http/request/headers/Authorization",
+                    "/access/http/request/headers/X-OpenIDM-Password",
+                    "/access/http/request/cookies/session-jwt",
+                    "/access/http/response/headers/Authorization",
+                    "/access/http/response/headers/X-OpenIDM-Password"
+                ],
+                "includeIf" : [ ]
+            }
+        }
     },
-    "activity" : {
-      "filter" : {
-        "actions" : [ "create", "update", "delete", "patch", "action" ]
-      },
-      "watchedFields" : [ ],
-      "passwordFields" : [ "password" ]
+    "eventHandlers" : [
+        {
+            "class" : "org.forgerock.audit.handlers.csv.CsvAuditEventHandler",
+            "config" : {
+                "name" : "csv",
+                "logDirectory" : "&{launcher.working.location}/audit",
+                "topics" : [
+                    "access",
+                    "activity",
+                    "recon",
+                    "sync",
+                    "authentication",
+                    "config"
+                ]
+            }
+        },
+        {
+            "class" : "org.forgerock.openidm.audit.impl.RepositoryAuditEventHandler",
+            "config" : {
+                "name" : "repo",
+                "topics" : [
+                    "access",
+                    "activity",
+                    "recon",
+                    "sync",
+                    "authentication",
+                    "config"
+                ]
+            }
+        }
+    ],
+    "eventTopics" : {
+        "config" : {
+            "filter" : {
+                "actions" : [
+                    "create",
+                    "update",
+                    "delete",
+                    "patch",
+                    "action"
+                ]
+            }
+        },
+        "activity" : {
+            "filter" : {
+                "actions" : [
+                    "create",
+                    "update",
+                    "delete",
+                    "patch",
+                    "action"
+                ]
+            },
+            "watchedFields" : [ ],
+            "passwordFields" : [
+                "password"
+            ]
+        }
+    },
+    "exceptionFormatter" : {
+        "type" : "text/javascript",
+        "file" : "bin/defaults/script/audit/stacktraceFormatter.js"
     }
-  },
-  "exceptionFormatter" : {
-    "type" : "text/javascript",
-    "file" : "bin/defaults/script/audit/stacktraceFormatter.js"
-  }
 }

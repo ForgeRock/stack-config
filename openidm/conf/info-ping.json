@@ -1,5 +1,4 @@
 {
-  "_id" : "info/ping",
-  "file" : "info/ping.js",
-  "type" : "text/javascript"
+    "file" : "info/ping.js",
+    "type" : "text/javascript"
 }

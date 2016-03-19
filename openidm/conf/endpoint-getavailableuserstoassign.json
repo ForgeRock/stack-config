@@ -1,5 +1,4 @@
 {
-  "_id" : "endpoint/getavailableuserstoassign",
-  "type" : "text/javascript",
-  "file" : "workflow/getavailableuserstoassign.js"
+    "type" : "text/javascript",
+    "file" : "workflow/getavailableuserstoassign.js"
 }

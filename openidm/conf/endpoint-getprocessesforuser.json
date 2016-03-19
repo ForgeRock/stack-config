@@ -1,5 +1,4 @@
 {
-  "_id" : "endpoint/getprocessesforuser",
-  "type" : "text/javascript",
-  "file" : "workflow/getprocessesforuser.js"
+    "type" : "text/javascript",
+    "file" : "workflow/getprocessesforuser.js"
 }

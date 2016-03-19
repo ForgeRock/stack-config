@@ -1,7 +1,6 @@
 {
-  "_id" : "ui.context/admin",
-  "enabled" : true,
-  "urlContextRoot" : "/admin",
-  "defaultDir" : "/opt/openidm/ui/admin/default",
-  "extensionDir" : "/opt/openidm/ui/admin/extension"
+    "enabled" : true,
+    "urlContextRoot" : "/admin",
+    "defaultDir" : "&{launcher.install.location}/ui/admin/default",
+    "extensionDir" : "&{launcher.install.location}/ui/admin/extension"
 }
