@@ -37,17 +37,7 @@
   },
   "configurationProperties" : {
     "filterWithOrInsteadOfAnd" : false,
-    "credentials" : {
-      "$crypto" : {
-        "type" : "x-simple-encryption",
-        "value" : {
-          "cipher" : "AES/CBC/PKCS5Padding",
-          "data" : "MEFB2Zu7HKSVkNKKXWEIgQ==",
-          "iv" : "EfsAW7vXfDqHU6pcY2HHqw==",
-          "key" : "openidm-sym-default"
-        }
-      }
-    },
+    "credentials": "password",
     "passwordAttributeToSynchronize" : null,
     "objectClassesToSynchronize" : [ "inetOrgPerson" ],
     "baseContextsToSynchronize" : [ "dc=example,dc=com" ],
