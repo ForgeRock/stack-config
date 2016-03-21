@@ -1,4 +1,5 @@
 {
     "file" : "info/version.js",
-    "type" : "text/javascript"
+    "type" : "text/javascript",
+    "_id" : "info/version"
 }
