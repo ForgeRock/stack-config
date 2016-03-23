@@ -1,0 +1,2 @@
+
+org.apache.felix.log.LogException: javax.script.ScriptException: Script source not found:ui/onCreate-user-set-default-fields.js:text/javascript

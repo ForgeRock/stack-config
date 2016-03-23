@@ -1,6 +1,5 @@
 {
     "context" : "endpoint/linkedView/*",
     "type" : "text/javascript",
-    "source" : "require('linkedView').fetch(request.resourcePath);",
-    "_id" : "endpoint/linkedView"
+    "source" : "require('linkedView').fetch(request.resourcePath);"
 }
