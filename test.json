@@ -1,0 +1,40 @@
+{
+  "items" : [
+    "global": {
+      "href":  "https://example.com/openam/config/global"
+      "order" : "0",
+      "schema": "some external schema reference???"
+    }
+    "realms" : {
+      "href": "https://example.com/openam/config/realms",
+      "order": "1"
+    },
+    "resource-types" : {
+      "order" : "2"
+      "href":  "https://example.com/openam/config/resource-types"
+    }
+    "policies" :
+      "href":  [
+        "https://example.com/openam/config/policy",
+        "https://example.com/openam/config/myrealm" ],
+      "comment": "can an href be an array of items to export"
+      "order": "3"
+    ]
+  ],
+  "metadata" : {
+    "last-exported": "Jan 1, 2016",
+    "export-user": "amdmin",
+    "product" : "openam",
+    "version": "14.0.1-patch3"
+  }
+}
+
+{
+  "metadata" : { }
+  "kind": "realm",
+  "path":  "/config/realm"
+  "items": [
+    { name: "/", "serviceNames" : [ "service1", "service2"]},
+    { name: "/development"}
+  ]
+}
