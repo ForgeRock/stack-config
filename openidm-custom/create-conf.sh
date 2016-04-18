@@ -7,6 +7,8 @@
 DEST=../openidm
 
 STOCK=/tmp/openidm
+STOCK=~/packages/openidm
+
 
 CUSTOM=.
 
