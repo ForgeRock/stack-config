@@ -26,6 +26,7 @@
             "name" : "elasticsearch",
             "class" : "org.forgerock.audit.handlers.elasticsearch.ElasticsearchAuditEventHandler",
             "config" : {
+                "name": "elasticsearch",
                 "connection" : {
                     "useSSL" : false,
                     "host" : "elasticsearch",
