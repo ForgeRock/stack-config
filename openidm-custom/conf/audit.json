@@ -23,22 +23,7 @@
     },
     "eventHandlers" : [
         {
-            "class" : "org.forgerock.audit.handlers.csv.CsvAuditEventHandler",
-            "config" : {
-                "name" : "csv",
-                "logDirectory" : "&{launcher.working.location}/audit",
-                "topics" : [
-                    "access",
-                    "activity",
-                    "recon",
-                    "sync",
-                    "authentication",
-                    "config"
-                ]
-            }
-        },
-        {
-            "name" : "elasticsearch"
+            "name" : "elasticsearch",
             "class" : "org.forgerock.audit.handlers.elasticsearch.ElasticsearchAuditEventHandler",
             "config" : {
                 "connection" : {
@@ -54,7 +39,22 @@
                     "maxSize" : 20000,
                     "writeInterval" : "1 second",
                     "maxBatchedEvents" : "500"
-                }
+                },
+                "topics" : [
+                    "access",
+                    "activity",
+                    "recon",
+                    "sync",
+                    "authentication",
+                    "config"
+                ]
+            }
+        },
+        {
+            "class" : "org.forgerock.audit.handlers.csv.CsvAuditEventHandler",
+            "config" : {
+                "name" : "csv",
+                "logDirectory" : "&{launcher.working.location}/audit",
                 "topics" : [
                     "access",
                     "activity",
