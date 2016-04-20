@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Creates Kibana indexes for OpenIDM ES audit
 curl \
 --request POST \
 --header "Content-Type: application/json" \
