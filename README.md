@@ -6,3 +6,6 @@
 ##About
 
 Holds configurations for the stack deployment on Kubernetes / Docker (Experimental)
+
+The files in this directory are auto-generated. Do not edit them directly
+
