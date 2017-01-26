@@ -14,8 +14,7 @@
       "refreshTokenLifetime" : 604800,
       "accessTokenLifetime" : 3600,
       "issueRefreshToken" : true,
-      "issueRefreshTokenOnRefreshedToken" : true,
-      "savedConsentAttribute" : ""
+      "issueRefreshTokenOnRefreshedToken" : true
     },
     "advancedOAuth2Config" : {
       "scopeImplementationClass" : "org.forgerock.openam.oauth2.OpenAMScopeValidator",

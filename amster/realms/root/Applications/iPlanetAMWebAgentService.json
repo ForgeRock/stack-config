@@ -18,9 +18,9 @@
     "entitlementCombiner" : "DenyOverride",
     "attributeNames" : [ ],
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
     "creationDate" : 1485290893250,
-    "lastModifiedDate" : 1485290893250,
+    "lastModifiedDate" : 1485464500341,
     "editable" : true,
     "_id" : "iPlanetAMWebAgentService"
   }

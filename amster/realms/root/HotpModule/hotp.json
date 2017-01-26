@@ -19,7 +19,6 @@
     "otpLength" : "8",
     "otpDeliveryMethod" : "SMS and E-mail",
     "userProfileTelephoneAttribute" : "telephoneNumber",
-    "mobileCarrierAttribute" : "",
     "userProfileEmailAttribute" : "mail",
     "autoSendOTP" : false,
     "_type" : {
