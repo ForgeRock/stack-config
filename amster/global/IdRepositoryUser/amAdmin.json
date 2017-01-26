@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "IdRepositoryUser",
+    "entityId" : "amAdmin",
+    "pathParams" : { }
+  },
+  "data" : {
+    "cn" : "amAdmin",
+    "dn" : "uid=amAdmin,ou=people,",
+    "givenName" : "amAdmin",
+    "roles" : [ ],
+    "sn" : "amAdmin",
+    "inetUserStatus" : "Active",
+    "_type" : {
+      "_id" : "user",
+      "name" : "User",
+      "collection" : true
+    },
+    "_id" : "amAdmin"
+  }
+}

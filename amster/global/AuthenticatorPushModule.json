@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "AuthenticatorPushModule",
+    "entityId" : "AuthenticatorPushModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "authenticationLevel" : 0,
+      "timeoutInMilliSecconds" : 120000,
+      "pushMessage" : "Login attempt from {{user}} at {{issuer}}"
+    },
+    "_type" : {
+      "_id" : "authPush",
+      "name" : "ForgeRock Authenticator (Push)",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

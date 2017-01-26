@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "Scripting",
+    "entityId" : "Scripting",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaultContext" : "POLICY_CONDITION",
+    "_type" : {
+      "_id" : "scripting",
+      "name" : "Scripting",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

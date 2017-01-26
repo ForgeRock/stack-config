@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "WindowsNtModule",
+    "entityId" : "WindowsNtModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "windowsnt",
+      "name" : "Windows NT",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

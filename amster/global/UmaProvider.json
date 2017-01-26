@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "UmaProvider",
+    "entityId" : "UmaProvider",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "rptLifetime" : 3600,
+      "permissionTicketLifetime" : 120,
+      "deletePoliciesOnDeleteRS" : true,
+      "deleteResourceSetsOnDeleteRS" : true,
+      "emailResourceOwnerOnPendingRequestCreation" : true,
+      "emailRequestingPartyOnPendingRequestApproval" : true,
+      "userProfileLocaleAttribute" : "inetOrgPerson",
+      "resharingMode" : "IMPLICIT",
+      "requireTrustElevation" : true
+    },
+    "_type" : {
+      "_id" : "uma",
+      "name" : "UMA Provider",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

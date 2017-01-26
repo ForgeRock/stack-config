@@ -1,0 +1,65 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "OAuth2Provider",
+    "entityId" : "OAuth2Provider",
+    "pathParams" : { }
+  },
+  "data" : {
+    "coreOAuth2Config" : {
+      "statelessTokensEnabled" : false,
+      "codeLifetime" : 120,
+      "refreshTokenLifetime" : 604800,
+      "accessTokenLifetime" : 3600,
+      "issueRefreshToken" : true,
+      "issueRefreshTokenOnRefreshedToken" : true,
+      "savedConsentAttribute" : ""
+    },
+    "advancedOAuth2Config" : {
+      "scopeImplementationClass" : "org.forgerock.openam.oauth2.OpenAMScopeValidator",
+      "responseTypeClasses" : [ "code|org.forgerock.oauth2.core.AuthorizationCodeResponseTypeHandler", "token|org.forgerock.oauth2.core.TokenResponseTypeHandler" ],
+      "authenticationAttributes" : [ "uid" ],
+      "displayNameAttribute" : "cn",
+      "supportedScopes" : [ ],
+      "supportedSubjectTypes" : [ "public" ],
+      "defaultScopes" : [ ],
+      "tokenSigningAlgorithm" : "HS256",
+      "tokenSigningHmacSharedSecret" : "9WJzsfpPl5OXEig4p0CK5w1TSGiSjBzVfHBha9Gfyuo=",
+      "keypairName" : "test",
+      "tokenSigningECDSAKeyAlias" : [ "ES512|test", "ES256|test", "ES384|test" ],
+      "codeVerifierEnforced" : false,
+      "clientsCanSkipConsent" : false
+    },
+    "coreOIDCConfig" : {
+      "oidcClaimsScript" : "36863ffb-40ec-48b9-94b1-9a99f71cc3b5",
+      "supportedIDTokenSigningAlgorithms" : [ "ES384", "HS256", "HS512", "ES256", "RS256", "HS384", "ES512" ],
+      "supportedIDTokenEncryptionAlgorithms" : [ "RSA-OAEP", "RSA-OAEP-256", "A128KW", "RSA1_5", "A256KW", "dir", "A192KW" ],
+      "supportedIDTokenEncryptionMethods" : [ "A256GCM", "A192GCM", "A128GCM", "A128CBC-HS256", "A192CBC-HS384", "A256CBC-HS512" ],
+      "supportedClaims" : [ ],
+      "jwtTokenLifetime" : 3600
+    },
+    "advancedOIDCConfig" : {
+      "idTokenInfoClientAuthenticationEnabled" : true,
+      "claimsParameterSupported" : false,
+      "allowDynamicRegistration" : false,
+      "generateRegistrationAccessTokens" : true,
+      "loaMapping" : { },
+      "amrMappings" : { },
+      "alwaysAddClaimsToToken" : false,
+      "storeOpsTokens" : true,
+      "oidcSsoProviderEnabled" : false
+    },
+    "deviceCodeConfig" : {
+      "deviceCodeLifetime" : 300,
+      "devicePollInterval" : 5
+    },
+    "_type" : {
+      "_id" : "oauth-oidc",
+      "name" : "OAuth2 Provider",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "FederationModule",
+    "entityId" : "federation",
+    "pathParams" : { }
+  },
+  "data" : {
+    "authenticationLevel" : 0,
+    "_type" : {
+      "_id" : "federation",
+      "name" : "Federation",
+      "collection" : true
+    },
+    "_id" : "federation"
+  }
+}

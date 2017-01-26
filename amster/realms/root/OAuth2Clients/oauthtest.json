@@ -1,0 +1,45 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "OAuth2Clients",
+    "entityId" : "oauthtest",
+    "pathParams" : { }
+  },
+  "data" : {
+    "sunIdentityServerDeviceStatus" : "Active",
+    "com.forgerock.openam.oauth2provider.clientType" : "Confidential",
+    "com.forgerock.openam.oauth2provider.redirectionURIs" : [ ],
+    "com.forgerock.openam.oauth2provider.scopes" : [ "[0]=openid" ],
+    "com.forgerock.openam.oauth2provider.claims" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.name" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.description" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.defaultScopes" : [ ],
+    "com.forgerock.openam.oauth2provider.responseTypes" : [ "[6]=code token id_token", "[0]=code", "[4]=token id_token", "[2]=id_token", "[3]=code token", "[1]=token", "[5]=code id_token" ],
+    "com.forgerock.openam.oauth2provider.contacts" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.tokenEndPointAuthMethod" : "client_secret_post",
+    "com.forgerock.openam.oauth2provider.jwksURI" : "http://openam:80/openam/oauth2/connect/jwk_uri",
+    "com.forgerock.openam.oauth2provider.subjectType" : "Public",
+    "com.forgerock.openam.oauth2provider.idTokenSignedResponseAlg" : "HS256",
+    "idTokenEncryptionEnabled" : false,
+    "idTokenEncryptionAlgorithm" : "RSA1_5",
+    "idTokenEncryptionMethod" : "A128CBC-HS256",
+    "com.forgerock.openam.oauth2provider.postLogoutRedirectURI" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.clientName" : [ "[0]=" ],
+    "com.forgerock.openam.oauth2provider.defaultMaxAge" : 600,
+    "com.forgerock.openam.oauth2provider.defaultMaxAgeEnabled" : false,
+    "com.forgerock.openam.oauth2provider.publicKeyLocation" : "jwks_uri",
+    "com.forgerock.openam.oauth2provider.authorizationCodeLifeTime" : 0,
+    "com.forgerock.openam.oauth2provider.refreshTokenLifeTime" : 0,
+    "com.forgerock.openam.oauth2provider.accessTokenLifeTime" : 0,
+    "com.forgerock.openam.oauth2provider.jwtTokenLifeTime" : 0,
+    "isConsentImplied" : false,
+    "_type" : {
+      "_id" : "OAuth2Client",
+      "name" : "OAuth2 Clients",
+      "collection" : true
+    },
+    "_id" : "oauthtest"
+  }
+}

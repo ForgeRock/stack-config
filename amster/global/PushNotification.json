@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "PushNotification",
+    "entityId" : "PushNotification",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "region" : "us-east-1",
+      "delegateFactory" : "org.forgerock.openam.services.push.sns.SnsHttpDelegateFactory",
+      "mdDuration" : 120,
+      "mdConcurrency" : 16,
+      "mdCacheSize" : 10000
+    },
+    "_type" : {
+      "_id" : "pushNotification",
+      "name" : "Push Notification Service",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

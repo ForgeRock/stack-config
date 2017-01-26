@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "ClientDetection",
+    "entityId" : "ClientDetection",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaultClientType" : "genericHTML",
+    "detectionClass" : "com.iplanet.services.cdm.ClientDetectionDefaultImpl",
+    "enabled" : false,
+    "_type" : {
+      "_id" : "clientdetection",
+      "name" : "Client Detection",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

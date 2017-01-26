@@ -6,15 +6,24 @@
         "connectorName" : "org.identityconnectors.ldap.LdapConnector"
     },
     "configurationProperties" : {
-        "host" : "configstore-0.configstore",
+        "host" : "userstore-0.userstore",
         "port" : 389,
         "ssl" : false,
         "principal" : "cn=Directory Manager",
-        "credentials" : "password",
+        "credentials" : {
+            "$crypto" : {
+                "type" : "x-simple-encryption",
+                "value" : {
+                    "cipher" : "AES/CBC/PKCS5Padding",
+                    "salt" : "JTkP1a7h66LO0oQOMmNKeA==",
+                    "data" : "sb8nDg29uzqlF/tt+VIQAw==",
+                    "iv" : "cb7U2NGQHowyHBaQMI+rzQ==",
+                    "key" : "openidm-sym-default",
+                    "mac" : "4yIOzAAI7AhDSR2qNW4r5g=="
+                }
+            }
+        },
         "baseContexts" : [
-            "dc=openam,dc=forgerock,dc=org"
-        ],
-        "baseContextsToSynchronize" : [
             "dc=openam,dc=forgerock,dc=org"
         ],
         "accountSearchFilter" : null,
@@ -55,7 +64,10 @@
         "blockSize" : 100,
         "uidAttribute" : "dn",
         "maintainLdapGroupMembership" : false,
-        "respectResourcePasswordPolicyChangeAfterReset" : false
+        "respectResourcePasswordPolicyChangeAfterReset" : false,
+        "baseContextsToSynchronize" : [
+            "dc=openam,dc=forgerock,dc=org"
+        ]
     },
     "resultsHandlerConfig" : {
         "enableNormalizingResultsHandler" : true,
@@ -294,5 +306,6 @@
             "denied" : false,
             "onDeny" : "DO_NOTHING"
         }
-    }
+    },
+    "enabled" : true
 }

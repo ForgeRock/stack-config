@@ -1,0 +1,87 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "AdaptiveRiskModule",
+    "entityId" : "AdaptiveRiskModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "general" : {
+        "authenticationLevel" : 0,
+        "riskThreshold" : 1
+      },
+      "authfailed" : {
+        "failedAuthenticationCheckEnabled" : false,
+        "failureScore" : 1,
+        "invertFailureScore" : false
+      },
+      "iprange" : {
+        "ipRangeCheckEnabled" : false,
+        "ipRange" : [ "10.0.0.0/24" ],
+        "ipRangeScore" : 1,
+        "invertIPRangeScoreEnabled" : false
+      },
+      "iphistory" : {
+        "ipHistoryCheckEnabled" : false,
+        "ipHistoryCount" : 5,
+        "ipHistoryProfileAttribute" : "iphistory",
+        "saveSuccessfulIP" : false,
+        "ipHistoryScore" : 1,
+        "invertIPHistoryScore" : false
+      },
+      "knowncookie" : {
+        "knownCookieCheckEnabled" : false,
+        "knownCookieName" : "",
+        "knownCookieValue" : "",
+        "createKnownCookieOnSuccessfulLogin" : false,
+        "knownCookieScore" : 1,
+        "invertKnownCookieScore" : false
+      },
+      "devicecookie" : {
+        "deviceCookieCheckEnabled" : false,
+        "deviceCookieName" : "Device",
+        "saveDeviceCookieValueOnSuccessfulLogin" : false,
+        "deviceCookieScore" : 1,
+        "invertDeviceCookieScore" : false
+      },
+      "lastlogin" : {
+        "timeSinceLastLoginCheckEnabled" : false,
+        "timeSinceLastLoginCookieName" : "",
+        "maxTimeSinceLastLogin" : "",
+        "saveLastLoginTimeOnSuccessfulLogin" : false,
+        "timeSinceLastLoginScore" : 1,
+        "invertTimeSinceLastLoginScore" : false
+      },
+      "attributecheck" : {
+        "profileRiskAttributeCheckEnabled" : false,
+        "profileRiskAttributeName" : "",
+        "profileRiskAttributeValue" : "",
+        "profileRiskAttributeScore" : 1,
+        "invertProfileRiskAttributeScore" : false
+      },
+      "geolocation" : {
+        "geolocationCheckEnabled" : false,
+        "geolocationDatabaseLocation" : "",
+        "geolocationValidCountryCodes" : "",
+        "geolocationScore" : 1,
+        "invertGeolocationScore" : false
+      },
+      "requestheader" : {
+        "requestHeaderCheckEnabled" : false,
+        "requestHeaderName" : "",
+        "requestHeaderValue" : "",
+        "requestHeaderScore" : 1,
+        "invertRequestHeaderScore" : false
+      }
+    },
+    "_type" : {
+      "_id" : "adaptiverisk",
+      "name" : "Adaptive Risk ",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

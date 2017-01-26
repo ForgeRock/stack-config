@@ -1,0 +1,34 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "PolicyConfiguration",
+    "entityId" : "PolicyConfiguration",
+    "pathParams" : { }
+  },
+  "data" : {
+    "ldapServer" : [ "userstore-0.userstore:389" ],
+    "usersBaseDn" : "dc=openam,dc=forgerock,dc=org",
+    "rolesBaseDn" : "dc=openam,dc=forgerock,dc=org",
+    "bindDn" : "cn=Directory Manager",
+    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
+    "usersSearchFilter" : "(objectclass=inetorgperson)",
+    "usersSearchScope" : "SCOPE_SUB",
+    "rolesSearchScope" : "SCOPE_SUB",
+    "usersSearchAttribute" : "uid",
+    "maximumSearchResults" : 100,
+    "searchTimeout" : 5,
+    "sslEnabled" : false,
+    "connectionPoolMinimumSize" : 1,
+    "connectionPoolMaximumSize" : 10,
+    "subjectsResultTTL" : 10,
+    "userAliasEnabled" : false,
+    "_type" : {
+      "_id" : "policyconfiguration",
+      "name" : "Policy Configuration",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

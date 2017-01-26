@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "IdRepositoryUser",
+    "entityId" : "anonymous",
+    "pathParams" : { }
+  },
+  "data" : {
+    "cn" : "anonymous",
+    "dn" : "uid=anonymous,ou=people,",
+    "givenName" : "anonymous",
+    "roles" : [ ],
+    "sn" : "anonymous",
+    "inetUserStatus" : "Active",
+    "_type" : {
+      "_id" : "user",
+      "name" : "User",
+      "collection" : true
+    },
+    "_id" : "anonymous"
+  }
+}

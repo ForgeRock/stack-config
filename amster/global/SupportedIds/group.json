@@ -1,0 +1,18 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "SupportedIds",
+    "entityId" : "group",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_type" : {
+      "_id" : "SupportedIdentities",
+      "name" : "SupportedIdentities",
+      "collection" : true
+    },
+    "_id" : "group"
+  }
+}

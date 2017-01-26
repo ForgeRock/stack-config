@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "UserSelfService",
+    "entityId" : "UserSelfService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "generalConfig" : {
+        "captchaVerificationUrl" : "https://www.google.com/recaptcha/api/siteverify",
+        "kbaQuestions" : [ "4|en|What is your mother's maiden name?", "3|en|What was the name of your childhood pet?", "2|en|What was the model of your first car?", "1|en|What is the name of your favourite restaurant?" ],
+        "minimumAnswersToDefine" : 1,
+        "minimumAnswersToVerify" : 1,
+        "validQueryAttributes" : [ "uid", "mail", "givenName", "sn" ]
+      },
+      "userRegistration" : {
+        "userRegistrationEnabled" : false,
+        "userRegistrationCaptchaEnabled" : false,
+        "userRegistrationEmailVerificationEnabled" : true,
+        "userRegistrationKbaEnabled" : false,
+        "userRegistrationTokenTTL" : 900,
+        "userRegistrationEmailSubject" : [ "en|Registration email" ],
+        "userRegistrationEmailBody" : [ "en|<h2>Click on this <a href=\"%link%\">link</a> to register.</h2>" ],
+        "userRegistrationValidUserAttributes" : [ "userPassword", "mail", "kbaInfo", "givenName", "inetUserStatus", "sn", "username" ],
+        "userRegisteredDestination" : "default"
+      },
+      "forgottenPassword" : {
+        "forgottenPasswordEnabled" : false,
+        "forgottenPasswordCaptchaEnabled" : false,
+        "forgottenPasswordEmailVerificationEnabled" : true,
+        "forgottenPasswordKbaEnabled" : false,
+        "forgottenPasswordTokenTTL" : 900,
+        "forgottenPasswordEmailSubject" : [ "en|Forgotten password email" ],
+        "forgottenPasswordEmailBody" : [ "en|<h2>Click on this <a href=\"%link%\">link</a> to reset your password.</h2>" ]
+      },
+      "forgottenUsername" : {
+        "forgottenUsernameEnabled" : false,
+        "forgottenUsernameCaptchaEnabled" : false,
+        "forgottenUsernameKbaEnabled" : false,
+        "forgottenUsernameEmailUsernameEnabled" : true,
+        "forgottenUsernameShowUsernameEnabled" : false,
+        "forgottenUsernameTokenTTL" : 900,
+        "forgottenUsernameEmailSubject" : [ "en|Forgotten username email" ],
+        "forgottenUsernameEmailBody" : [ "en|<h2>Your username is <span style=\"color:blue\">%username%</span>.</h2>" ]
+      },
+      "profileManagement" : {
+        "profileProtectedUserAttributes" : [ ]
+      },
+      "advancedConfig" : {
+        "userRegistrationConfirmationUrl" : "http://openam:80/openam/XUI/?realm=${realm}#register/",
+        "forgottenPasswordConfirmationUrl" : "http://openam:80/openam/XUI/?realm=${realm}#passwordReset/",
+        "userRegistrationServiceConfigClass" : "org.forgerock.openam.selfservice.config.flows.UserRegistrationConfigProvider",
+        "forgottenPasswordServiceConfigClass" : "org.forgerock.openam.selfservice.config.flows.ForgottenPasswordConfigProvider",
+        "forgottenUsernameServiceConfigClass" : "org.forgerock.openam.selfservice.config.flows.ForgottenUsernameConfigProvider"
+      }
+    },
+    "_type" : {
+      "_id" : "selfService",
+      "name" : "User Self-Service",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

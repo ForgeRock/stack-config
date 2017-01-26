@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "MembershipModule",
+    "entityId" : "MembershipModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "minimumPasswordLength" : 8,
+      "defaultUserRoles" : [ ],
+      "defaultUserStatus" : "Active",
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "membership",
+      "name" : "Membership",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

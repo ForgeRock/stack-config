@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "AmsterModule",
+    "entityId" : "AmsterModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "authorizedKeys" : "/root/openam/authorized_keys",
+      "enabled" : true,
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "amster",
+      "name" : "ForgeRock Amster",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

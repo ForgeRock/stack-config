@@ -57,6 +57,37 @@
                     "config"
                 ]
             }
+        },
+        {
+            "class" : "org.forgerock.audit.handlers.elasticsearch.ElasticsearchAuditEventHandler",
+            "config" : {
+                "connection" : {
+                    "useSSL" : false,
+                    "host" : "elasticsearch",
+                    "port" : 9200,
+                    "username" : "",
+                    "password" : ""
+                },
+                "indexMapping" : {
+                    "indexName" : "audit"
+                },
+                "buffering" : {
+                    "enabled" : true,
+                    "maxSize" : 0,
+                    "writeInterval" : "",
+                    "maxBatchedEvents" : 0
+                },
+                "name" : "elasticsearch",
+                "topics" : [
+                    "config",
+                    "activity",
+                    "recon",
+                    "sync",
+                    "access",
+                    "authentication"
+                ],
+                "enabled" : true
+            }
         }
     ],
     "eventTopics" : {

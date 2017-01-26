@@ -1,0 +1,60 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "GeneralProperties",
+    "entityId" : "http://openam:80/openam",
+    "pathParams" : {
+      "serverName" : "http://openam:80/openam"
+    }
+  },
+  "data" : {
+    "amconfig.header.site" : {
+      "singleChoiceSite" : "site1"
+    },
+    "amconfig.header.installdir" : {
+      "com.sun.identity.client.notification.url" : {
+        "value" : "%SERVER_PROTO%://%SERVER_HOST%:%SERVER_PORT%/%SERVER_URI%/notificationservice",
+        "inherited" : true
+      },
+      "com.iplanet.services.configpath" : {
+        "value" : "/root/openam",
+        "inherited" : false
+      },
+      "com.iplanet.am.util.xml.validating" : {
+        "value" : "off",
+        "inherited" : true
+      },
+      "com.iplanet.am.locale" : {
+        "value" : "en_US",
+        "inherited" : false
+      }
+    },
+    "amconfig.header.debug" : {
+      "com.iplanet.services.debug.directory" : {
+        "value" : "%BASE_DIR%/%SERVER_URI%/debug",
+        "inherited" : true
+      },
+      "com.iplanet.services.debug.level" : {
+        "value" : "error",
+        "inherited" : false
+      },
+      "com.sun.services.debug.mergeall" : {
+        "value" : "off",
+        "inherited" : false
+      }
+    },
+    "amconfig.header.mailserver" : {
+      "com.iplanet.am.smtpport" : {
+        "value" : "25",
+        "inherited" : true
+      },
+      "com.iplanet.am.smtphost" : {
+        "value" : "localhost",
+        "inherited" : true
+      }
+    },
+    "_id" : "01/properties/general"
+  }
+}

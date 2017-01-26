@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "RadiusModule",
+    "entityId" : "RadiusModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "primaryRadiusServers" : [ "127.0.0.1" ],
+      "secondaryRadiusServers" : [ "127.0.0.1" ],
+      "serverPortNumber" : 1645,
+      "serverTimeout" : 3,
+      "healthCheckInterval" : 5,
+      "authenticationLevel" : 0
+    },
+    "_type" : {
+      "_id" : "radius",
+      "name" : "RADIUS",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

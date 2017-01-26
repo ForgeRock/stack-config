@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "SunIdentityRepositoryService",
+    "entityId" : "SunIdentityRepositoryService",
+    "pathParams" : { }
+  },
+  "data" : {
+    "sunIdRepoAttributeCombiner" : "com.iplanet.am.sdk.AttributeCombiner",
+    "sunCoexistenceAttributeMapping" : [ "sunOrganizationAliases=sunOrganizationAlias", "sunOrganizationStatus=inetDomainStatus", "sunPreferredDomain=sunPreferredDomain", "sunDNSAliases=associatedDomain" ],
+    "sunIdRepoAttributeValidator" : [ "class=com.sun.identity.idm.server.IdRepoAttributeValidatorImpl", "minimumPasswordLength=8", "usernameInvalidChars=*|(|)|&|!" ],
+    "_type" : {
+      "_id" : "id-repositories",
+      "name" : "sunIdentityRepositoryService",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}

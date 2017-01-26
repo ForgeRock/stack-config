@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "resourceVersion" : "1.0",
+    "entityType" : "PersistentCookieModule",
+    "entityId" : "PersistentCookieModule",
+    "pathParams" : { }
+  },
+  "data" : {
+    "defaults" : {
+      "idleTimeout" : 5,
+      "maxLife" : 5,
+      "enforceClientIP" : false,
+      "useSecureCookie" : true,
+      "useHttpOnlyCookie" : true
+    },
+    "_type" : {
+      "_id" : "persistentcookie",
+      "name" : "Persistent Cookie",
+      "collection" : false
+    },
+    "_id" : ""
+  }
+}
