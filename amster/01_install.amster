@@ -1,0 +1,3 @@
+
+install-openam --serverurl http://openam:80/openam --COOKIE_DOMAIN .example.com --adminpwd password --DATA_STORE dirServer --DIRECTORY_SERVER configstore-0.configstore --DS_DIRMGRPASSWD password  --DIRECTORY_PORT "389"
+:exit
