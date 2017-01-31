@@ -17,9 +17,9 @@
     "entitlementCombiner" : "DenyOverride",
     "attributeNames" : [ ],
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "creationDate" : 1485290893299,
-    "lastModifiedDate" : 1485464500528,
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1485806979332,
+    "lastModifiedDate" : 1485806979332,
     "editable" : true,
     "_id" : "sunAMDelegationService"
   }

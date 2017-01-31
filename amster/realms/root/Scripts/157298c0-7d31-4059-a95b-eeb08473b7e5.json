@@ -16,8 +16,8 @@
     "context" : "AUTHENTICATION_CLIENT_SIDE",
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
     "creationDate" : 1.433147666269E12,
-    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1.485464501625E12,
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : 1.433147666269E12,
     "default" : true
   }
 }

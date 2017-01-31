@@ -8,7 +8,7 @@
     "pathParams" : { }
   },
   "data" : {
-    "primaryLdapServer" : [ "userstore-0.userstore:389" ],
+    "primaryLdapServer" : [ "configstore-0.configstore:389" ],
     "secondaryLdapServer" : [ ],
     "userSearchStartDN" : [ "dc=openam,dc=forgerock,dc=org" ],
     "userBindDN" : "cn=Directory Manager",

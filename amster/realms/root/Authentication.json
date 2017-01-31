@@ -43,7 +43,7 @@
     },
     "postauthprocess" : {
       "loginSuccessUrl" : [ "/openam/console" ],
-      "loginFailureUrl" : [ ],
+      "loginFailureUrl" : [ "" ],
       "loginPostProcessClass" : [ ],
       "usernameGeneratorEnabled" : true,
       "usernameGeneratorClass" : "com.sun.identity.authentication.spi.DefaultUserIDGenerator",

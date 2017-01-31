@@ -26,7 +26,7 @@
     },
     "amconfig.org.forgerock.services.cts.store.external.section" : {
       "org.forgerock.services.cts.store.password" : {
-        "value" : "",
+        "value" : null,
         "inherited" : true
       },
       "org.forgerock.services.cts.store.affinity.enabled" : {

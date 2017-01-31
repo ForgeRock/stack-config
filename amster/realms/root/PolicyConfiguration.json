@@ -8,7 +8,7 @@
     "pathParams" : { }
   },
   "data" : {
-    "ldapServer" : [ "userstore-0.userstore:389" ],
+    "ldapServer" : [ "configstore-0.configstore:389" ],
     "usersBaseDn" : "dc=openam,dc=forgerock,dc=org",
     "rolesBaseDn" : "dc=openam,dc=forgerock,dc=org",
     "bindDn" : "cn=Directory Manager",

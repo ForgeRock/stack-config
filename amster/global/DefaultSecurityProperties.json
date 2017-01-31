@@ -33,7 +33,6 @@
       "com.sun.identity.crl.cache.directory.host" : "",
       "com.sun.identity.crl.cache.directory.ssl" : false,
       "com.sun.identity.crl.cache.directory.user" : "",
-      "com.sun.identity.crl.cache.directory.password" : "",
       "com.sun.identity.crl.cache.directory.searchlocs" : "",
       "com.sun.identity.crl.cache.directory.searchattr" : ""
     },

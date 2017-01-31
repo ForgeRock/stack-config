@@ -11,7 +11,7 @@
     "defaults" : {
       "trustedGatewayIPAddresses" : [ ],
       "msisdnParameterNames" : [ ],
-      "ldapProviderUrl" : [ "userstore-0.userstore:389" ],
+      "ldapProviderUrl" : [ "configstore-0.configstore:389" ],
       "baseSearchDN" : [ "dc=openam,dc=forgerock,dc=org" ],
       "userProfileMsisdnAttribute" : "sunIdentityMSISDNNumber",
       "ldapUserBindDN" : "cn=Directory Manager",

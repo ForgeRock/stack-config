@@ -13,8 +13,8 @@
       "criteria" : "REQUIRED",
       "options" : { }
     } ],
-    "loginSuccessUrl" : [ ],
-    "loginFailureUrl" : [ ],
+    "loginSuccessUrl" : [ "" ],
+    "loginFailureUrl" : [ "" ],
     "loginPostProcessClass" : [ ],
     "_type" : {
       "_id" : "EMPTY",

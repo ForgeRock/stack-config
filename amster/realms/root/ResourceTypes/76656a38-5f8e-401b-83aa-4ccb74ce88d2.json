@@ -23,8 +23,8 @@
     },
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
     "creationDate" : 1.422892465848E12,
-    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1.485464499955E12,
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : 1.422892465848E12,
     "_id" : "76656a38-5f8e-401b-83aa-4ccb74ce88d2"
   }
 }

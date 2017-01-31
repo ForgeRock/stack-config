@@ -9,7 +9,7 @@
   },
   "data" : {
     "_id" : "site1",
-    "url" : "http://openam.example.com:80/openam",
+    "url" : "https://openam.example.com/openam",
     "secondaryURLs" : [ ]
   }
 }

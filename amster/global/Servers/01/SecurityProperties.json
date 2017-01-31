@@ -12,11 +12,11 @@
   "data" : {
     "amconfig.header.encryption" : {
       "am.encryption.pwd" : {
-        "value" : "O6QWwHPO4os+zEz3Nqn/2daAYWyiFE32",
+        "value" : "fj5XR+wtlYuBYMVRpMhMbPyDIE4OIR6l",
         "inherited" : false
       },
       "com.iplanet.am.service.secret" : {
-        "value" : "AQIC0eDazaPM4YHY4w3lpeEnxpgPS2UhZ949",
+        "value" : "AQICuyCrGeT45FaYgd0TjObOOFtPIab7bmrf",
         "inherited" : false
       },
       "com.iplanet.security.encryptor" : {
@@ -91,7 +91,6 @@
         "inherited" : true
       },
       "com.sun.identity.crl.cache.directory.password" : {
-        "value" : "",
         "inherited" : true
       },
       "com.sun.identity.crl.cache.directory.searchlocs" : {

@@ -30,7 +30,7 @@
         "supportedSubjectTypes" : [ "public" ],
         "defaultScopes" : [ ],
         "tokenSigningAlgorithm" : "HS256",
-        "tokenSigningHmacSharedSecret" : "9WJzsfpPl5OXEig4p0CK5w1TSGiSjBzVfHBha9Gfyuo=",
+        "tokenSigningHmacSharedSecret" : "oZQS3kkalRsoa+7naPoAMtNXkupnl+K7alsEVr3ghGI=",
         "keypairName" : "test",
         "tokenSigningECDSAKeyAlias" : [ "ES512|test", "ES256|test", "ES384|test" ],
         "codeVerifierEnforced" : false,

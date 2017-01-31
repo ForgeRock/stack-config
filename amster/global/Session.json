@@ -9,6 +9,7 @@
   },
   "data" : {
     "general" : {
+      "latestAccessTimeUpdateFrequency" : 60,
       "dnRestrictionOnly" : false,
       "timeoutHandlers" : [ ]
     },
@@ -28,7 +29,7 @@
     },
     "stateless" : {
       "statelessSigningType" : "HS256",
-      "statelessSigningHmacSecret" : "t+89cZzYPknqsICEW+foo5aYNb+rvRHgT2NARHL25Uw=",
+      "statelessSigningHmacSecret" : "+A+QZaPDLj/iPBFELCzd/L2LwOmItR/806Ik3xWyuC4=",
       "statelessSigningRsaCertAlias" : "test",
       "statelessEncryptionType" : "DIRECT",
       "statelessEncryptionRsaCertAlias" : "test",
