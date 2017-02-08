@@ -89,6 +89,10 @@
                 {
                     "type" : "clusterStatus",
                     "size" : "large"
+                },
+                {
+                    "type" : "quickStart",
+                    "size" : "large"
                 }
             ]
         }
