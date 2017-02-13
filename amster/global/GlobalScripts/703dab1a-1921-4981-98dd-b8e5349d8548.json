@@ -1,0 +1,17 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "entityType" : "GlobalScripts",
+    "entityId" : "703dab1a-1921-4981-98dd-b8e5349d8548",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "703dab1a-1921-4981-98dd-b8e5349d8548",
+    "_type" : {
+      "_id" : "globalScript",
+      "name" : "Scripting",
+      "collection" : true
+    }
+  }
+}

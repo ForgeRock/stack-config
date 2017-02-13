@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "14.0.0-SNAPSHOT",
+    "entityType" : "Policies",
+    "entityId" : "OAuth2ProviderPolicy",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "OAuth2ProviderPolicy",
+    "name" : "OAuth2ProviderPolicy",
+    "active" : true,
+    "description" : "",
+    "applicationName" : "OAuth2",
+    "actionValues" : {
+      "POST" : true,
+      "GET" : true
+    },
+    "resources" : [ "http://openam.example.com:80/openam/oauth2/authorize?*" ],
+    "subject" : {
+      "type" : "AuthenticatedUsers"
+    },
+    "resourceTypeUuid" : "166daac9-4c68-4622-b27a-71a36b492deb",
+    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : "2017-02-09T20:51:10.604Z",
+    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : "2017-02-09T20:51:10.604Z"
+  }
+}

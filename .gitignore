@@ -1,3 +1,4 @@
 tmp/
 .idea
 stack-config.iml
+logs/
