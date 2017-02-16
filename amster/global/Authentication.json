@@ -45,6 +45,7 @@
         "moduleBasedAuthEnabled" : true,
         "zeroPageLoginAllowedWithoutReferrer" : true,
         "sharedSecret" : null,
+        "sharedSecret-encrypted" : "AAAAA0FFUwIQiShdg2KMCsrfLdOyCc5u5nATnaXWALH4S7yVtDCszw+zPOxZVZmo3U0SluBqr618rQoU05g5z/LoUMf4ytGdGjUcz5mh+xmf",
         "keyAlias" : "test",
         "zeroPageLoginEnabled" : false,
         "zeroPageLoginReferrerWhiteList" : [ ]
@@ -60,8 +61,7 @@
       "core" : {
         "orgConfig" : "[Empty]",
         "adminAuthModule" : "[Empty]"
-      },
-      "sharedSecret-encrypted" : "AAAAA0FFUwIQxI7hwF+ofUiwYCr7ilYPC/zQqNLSd/kfClPFM1k9HUsNL8Hcv0lDjusfHzfDFWuENwA5mo3OCi0sZB4K8Z9kTXksUVk4LK66"
+      }
     },
     "_type" : {
       "_id" : "EMPTY",

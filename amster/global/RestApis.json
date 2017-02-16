@@ -11,7 +11,7 @@
     "defaultProtocolVersion" : "Latest",
     "defaultVersion" : "Latest",
     "warningHeader" : false,
-    "descriptionsEnabled" : true,
+    "descriptionsState" : "STATIC",
     "_type" : {
       "_id" : "rest",
       "name" : "REST APIs",

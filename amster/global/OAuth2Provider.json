@@ -21,7 +21,7 @@
         "tokenSigningECDSAKeyAlias" : [ "ES512|es512test", "ES384|es384test", "ES256|es256test" ],
         "hashSalt" : null,
         "moduleMessageEnabledInPasswordGrant" : false,
-        "tokenSigningHmacSharedSecret" : "aeimgCgTls6fX1KiTTsBLOuQYhws/aCYB0PnQ9wjuCg=",
+        "tokenSigningHmacSharedSecret" : "ubqXdJuZ3YoGbsl4VAJuBBEaR6O8mZL91wVgjEXsP0E=",
         "codeVerifierEnforced" : false,
         "tokenSigningAlgorithm" : "HS256",
         "tokenCompressionEnabled" : null,

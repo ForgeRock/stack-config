@@ -12,11 +12,11 @@
     "_id" : "01/properties/security",
     "amconfig.header.encryption" : {
       "am.encryption.pwd" : {
-        "value" : "i4sznnOXaeTmO+ARgAAuD4e6SUOCkoVd",
+        "value" : "123456789012",
         "inherited" : false
       },
       "com.iplanet.am.service.secret" : {
-        "value" : "AQICW9Fa3SP4VfAiEoJqf/tdXObXMGlgyATS",
+        "value" : "AQICcXwEul/2kAQMkjn99So1Fh/lo3SRWPhh",
         "inherited" : false
       },
       "com.iplanet.security.encryptor" : {

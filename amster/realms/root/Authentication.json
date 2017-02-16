@@ -38,6 +38,7 @@
       "moduleBasedAuthEnabled" : true,
       "zeroPageLoginAllowedWithoutReferrer" : true,
       "sharedSecret" : null,
+      "sharedSecret-encrypted" : "AAAAA0FFUwIQUmkMHmWD5NaKtYAirKOpiTz3GqbaWRc+RZen761OoapSlmxy59RLBuCmgmFxMtgfOyJ3CBvq0nx8TwK8PAOaQmbmsyuLo4i+",
       "keyAlias" : "test",
       "zeroPageLoginEnabled" : false,
       "zeroPageLoginReferrerWhiteList" : [ ]
@@ -54,7 +55,6 @@
       "orgConfig" : "ldapService",
       "adminAuthModule" : "ldapService"
     },
-    "sharedSecret-encrypted" : "AAAAA0FFUwIQPCZwdqncm6CUESB3HRU8GDsYQBuWvCUsYlo9YwV6tfUsoNEsr2rLAJpi8Jdf6QhB/zrRgLlBouf/agvTH9bQT/AwY7hQXicy",
     "_type" : {
       "_id" : "EMPTY",
       "name" : "Core",
