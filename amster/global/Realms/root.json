@@ -11,6 +11,6 @@
     "parentPath" : null,
     "active" : true,
     "name" : "/",
-    "aliases" : [ "openam.example.com", "openam" ]
+    "aliases" : [ "openam.homeunix.org", "openam.example.com", "openam" ]
   }
 }
