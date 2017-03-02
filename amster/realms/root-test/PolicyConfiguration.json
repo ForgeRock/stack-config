@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "realm" : "test",
+    "realm" : "/test",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "PolicyConfiguration",
     "entityId" : "PolicyConfiguration",
@@ -22,10 +22,10 @@
     "sslEnabled" : false,
     "usersBaseDn" : "dc=openam,dc=forgerock,dc=org",
     "bindPassword" : null,
-    "bindPassword-encrypted" : "AAAAA0FFUwIQtlBx2AOcUK5h/sv4fGCrM7aOy5BYqE4jBT4G8q3pjB27NAXtyvkzHg==",
+    "bindPassword-encrypted" : "AAAAA0FFUwIQbtg7x2w7249RCPtLKQKr4Ko+b7x+13MJtEjQvlDJ/4y8Qb+ZuC9PUg==",
     "connectionPoolMaximumSize" : 10,
-    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
     "maximumSearchResults" : 100,
+    "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
     "_type" : {
       "_id" : "policyconfiguration",
       "name" : "Policy Configuration",

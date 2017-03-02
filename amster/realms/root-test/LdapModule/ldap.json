@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "realm" : "test",
+    "realm" : "/test",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "LdapModule",
     "entityId" : "ldap",
@@ -8,10 +8,10 @@
   },
   "data" : {
     "_id" : "ldap",
-    "userSearchFilter" : null,
     "authenticationLevel" : 0,
+    "userSearchFilter" : null,
     "userBindPassword" : null,
-    "userBindPassword-encrypted" : "AAAAA0FFUwIQBBaUJtsDLeX8UNlFB2KAysFiVGBoaLgS0lOsrQdeL79VQ7s/wVXONw==",
+    "userBindPassword-encrypted" : "AAAAA0FFUwIQnvRaURXQY32S2JCt2opTo7sHRSVa22bTwL9VXm/8ejm97tQsz0TGCw==",
     "searchScope" : "SUBTREE",
     "returnUserDN" : true,
     "profileAttributeMappings" : [ ],
@@ -21,8 +21,8 @@
     "beheraPasswordPolicySupportEnabled" : true,
     "userProfileRetrievalAttribute" : "uid",
     "minimumPasswordLength" : "8",
-    "primaryLdapServer" : [ "configstore-0.configstore:389" ],
     "openam-auth-ldap-connection-mode" : "LDAP",
+    "primaryLdapServer" : [ "configstore-0.configstore:389" ],
     "connectionHeartbeatInterval" : 10,
     "secondaryLdapServer" : [ ],
     "userSearchStartDN" : [ "dc=openam,dc=forgerock,dc=org" ],

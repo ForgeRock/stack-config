@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "realm" : "test",
+    "realm" : "/test",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "SunIdentityRepositoryService",
     "entityId" : "SunIdentityRepositoryService",

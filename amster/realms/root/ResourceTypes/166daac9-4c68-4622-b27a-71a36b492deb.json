@@ -16,9 +16,9 @@
       "POST" : true,
       "GET" : true
     },
-    "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "creationDate" : 1486673470492,
-    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1486673470492
+    "createdBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
+    "creationDate" : 1488478987142,
+    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : 1488478987142
   }
 }

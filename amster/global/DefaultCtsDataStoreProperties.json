@@ -18,6 +18,7 @@
       "org.forgerock.services.cts.store.directory.name" : "",
       "org.forgerock.services.cts.store.loginid" : "",
       "org.forgerock.services.cts.store.password" : null,
+      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQjCPBV7mTphAXHdCyGQovVUSsht8q8O3pAKO0b02WLKM=",
       "org.forgerock.services.cts.store.heartbeat" : "10"
     }
   }

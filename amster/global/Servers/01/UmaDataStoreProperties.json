@@ -38,7 +38,7 @@
         "inherited" : true
       },
       "org.forgerock.services.resourcesets.store.password" : {
-        "value" : "",
+        "value" : null,
         "inherited" : true
       },
       "org.forgerock.services.resourcesets.store.heartbeat" : {

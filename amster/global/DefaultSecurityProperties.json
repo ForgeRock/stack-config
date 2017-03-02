@@ -35,6 +35,7 @@
       "com.sun.identity.crl.cache.directory.ssl" : false,
       "com.sun.identity.crl.cache.directory.user" : "",
       "com.sun.identity.crl.cache.directory.password" : null,
+      "com.sun.identity.crl.cache.directory.password-encrypted" : "AAAAA0FFUwIQmNL4YpweDJGmOwI6HSSZRbM4NH1L3IwmVWE+VX4jjSg=",
       "com.sun.identity.crl.cache.directory.searchlocs" : "",
       "com.sun.identity.crl.cache.directory.searchattr" : ""
     },

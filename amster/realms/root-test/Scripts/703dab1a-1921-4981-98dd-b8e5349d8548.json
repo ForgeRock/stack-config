@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "realm" : "test",
+    "realm" : "/test",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "Scripts",
     "entityId" : "703dab1a-1921-4981-98dd-b8e5349d8548",
@@ -16,7 +16,7 @@
     "context" : "AUTHENTICATION_SERVER_SIDE",
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
     "creationDate" : 1433147666269,
-    "lastModifiedBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1433147666269
+    "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
+    "lastModifiedDate" : 1488478988024
   }
 }

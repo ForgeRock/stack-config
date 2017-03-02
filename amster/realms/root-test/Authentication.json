@@ -1,6 +1,6 @@
 {
   "metadata" : {
-    "realm" : "test",
+    "realm" : "/test",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "Authentication",
     "entityId" : "Authentication",
@@ -38,14 +38,14 @@
       "moduleBasedAuthEnabled" : true,
       "zeroPageLoginAllowedWithoutReferrer" : true,
       "sharedSecret" : null,
-      "sharedSecret-encrypted" : "AAAAA0FFUwIQqprMoqMkpouib3uqOYKCtl/ROHBYFL8dr7UAPeydff8NwFEX0BTl32XAny1EjtTALcZ8BGvHm7chl9L/HJJ07afsbCyLewMR",
+      "sharedSecret-encrypted" : "AAAAA0FFUwIQmEc525Hkwjc6rTtHeNnLKD0XA48g322eoxTMRTqqOWaUhIhENt2x5UgpMu+HsDieYDkB/nmyoKfq+pf7ILSC0u1j7GsEEwd3",
       "keyAlias" : "test",
       "zeroPageLoginEnabled" : false,
       "zeroPageLoginReferrerWhiteList" : [ ]
     },
     "postauthprocess" : {
       "usernameGeneratorClass" : "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
-      "loginFailureUrl" : [ "" ],
+      "loginFailureUrl" : [ ],
       "userAttributeSessionMapping" : [ ],
       "loginPostProcessClass" : [ ],
       "usernameGeneratorEnabled" : true,

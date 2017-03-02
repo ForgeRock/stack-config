@@ -93,8 +93,9 @@
       },
       "com.sun.identity.crl.cache.directory.password" : {
         "value" : null,
-        "inherited" : true
+        "inherited" : false
       },
+      "com.sun.identity.crl.cache.directory.password-encrypted" : "AAAAA0FFUwIQx3uJnHOoCV4QZR/d209TeV02f/nYxQJY4gI8dKRK1DM=",
       "com.sun.identity.crl.cache.directory.searchlocs" : {
         "value" : "",
         "inherited" : true
