@@ -22,8 +22,8 @@
       "PATCH" : true
     },
     "createdBy" : "id=dsameuser,ou=user,dc=openam,dc=forgerock,dc=org",
-    "creationDate" : 1488478982427,
+    "creationDate" : 1488487764655,
     "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1488478987281
+    "lastModifiedDate" : 1488487771754
   }
 }

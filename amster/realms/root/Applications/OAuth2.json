@@ -13,7 +13,7 @@
     "resourceTypeUuids" : [ "166daac9-4c68-4622-b27a-71a36b492deb" ],
     "creationDate" : 1486673470537,
     "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1488478987495,
+    "lastModifiedDate" : 1488487772153,
     "applicationType" : "iPlanetAMWebAgentService",
     "subjects" : [ "Policy", "NOT", "OR", "JwtClaim", "AuthenticatedUsers", "AND", "Identity", "NONE" ],
     "saveIndex" : null,

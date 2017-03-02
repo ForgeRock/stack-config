@@ -12,11 +12,11 @@
     "_id" : "01/properties/cts",
     "amconfig.org.forgerock.services.cts.store.common.section" : {
       "org.forgerock.services.cts.store.location" : {
-        "value" : "default",
+        "value" : "external",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.root.suffix" : {
-        "value" : "",
+        "value" : "dc=openam,dc=forgerock,dc=org",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.max.connections" : {
@@ -26,28 +26,28 @@
     },
     "amconfig.org.forgerock.services.cts.store.external.section" : {
       "org.forgerock.services.cts.store.ssl.enabled" : {
-        "value" : "",
+        "value" : false,
         "inherited" : true
       },
       "org.forgerock.services.cts.store.directory.name" : {
-        "value" : "",
+        "value" : "cts-0.cts:389",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.loginid" : {
-        "value" : "",
+        "value" : "cn=Directory Manager",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.password" : {
         "value" : null,
-        "inherited" : false
+        "inherited" : true
       },
-      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQpbbYhbv9fY0bqphfQhmpzvDAHRYE7/a2/2qp1v/Ay2k=",
+      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQ1E6lUY9KQoin6Q+yFWKTdiz0D/tEZR0kR5N557HdXpKyQlZRnDWsuA==",
       "org.forgerock.services.cts.store.heartbeat" : {
         "value" : "10",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.affinity.enabled" : {
-        "value" : null,
+        "value" : false,
         "inherited" : true
       }
     }

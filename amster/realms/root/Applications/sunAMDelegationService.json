@@ -13,7 +13,7 @@
     "resourceTypeUuids" : [ "20a13582-1f32-4f83-905f-f71ff4e2e00d" ],
     "creationDate" : 1487267346359,
     "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1488478987604,
+    "lastModifiedDate" : 1488487772228,
     "applicationType" : "sunAMDelegationService",
     "subjects" : [ "NOT", "OR", "AuthenticatedUsers", "AND", "Identity" ],
     "saveIndex" : null,

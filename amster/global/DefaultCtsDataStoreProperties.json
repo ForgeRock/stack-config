@@ -9,17 +9,18 @@
   "data" : {
     "_id" : "null/properties/cts",
     "amconfig.org.forgerock.services.cts.store.common.section" : {
-      "org.forgerock.services.cts.store.location" : "default",
-      "org.forgerock.services.cts.store.root.suffix" : "",
+      "org.forgerock.services.cts.store.location" : "external",
+      "org.forgerock.services.cts.store.root.suffix" : "dc=openam,dc=forgerock,dc=org",
       "org.forgerock.services.cts.store.max.connections" : "10"
     },
     "amconfig.org.forgerock.services.cts.store.external.section" : {
-      "org.forgerock.services.cts.store.ssl.enabled" : "",
-      "org.forgerock.services.cts.store.directory.name" : "",
-      "org.forgerock.services.cts.store.loginid" : "",
+      "org.forgerock.services.cts.store.ssl.enabled" : false,
+      "org.forgerock.services.cts.store.directory.name" : "cts-0.cts:389",
+      "org.forgerock.services.cts.store.loginid" : "cn=Directory Manager",
       "org.forgerock.services.cts.store.password" : null,
-      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQjCPBV7mTphAXHdCyGQovVUSsht8q8O3pAKO0b02WLKM=",
-      "org.forgerock.services.cts.store.heartbeat" : "10"
+      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQ51r5fhGvNytWaQOwXoFTL+S2ukHrkKa7mexPQGS53TCzGvwkmoh8aQ==",
+      "org.forgerock.services.cts.store.heartbeat" : "10",
+      "org.forgerock.services.cts.store.affinity.enabled" : false
     }
   }
 }

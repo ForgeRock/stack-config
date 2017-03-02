@@ -18,7 +18,7 @@
       "openam-session-stateless-blacklist-purge-delay" : 1,
       "statelessSigningRsaCertAlias" : "test",
       "statelessEncryptionAesKey" : null,
-      "statelessEncryptionAesKey-encrypted" : "AAAAA0FFUwIQ6tTedzkR4aUXTW6oxeMeIyouUHW0YOxAlVIGizrgqD+YgJFXJNjSq97fgc40J/Hk23Hv/4IT5QjJVGBb4C6LQIQ4h8uK7N/r",
+      "statelessEncryptionAesKey-encrypted" : "AAAAA0FFUwIQ373RVFUB+glDdvjOlk1DlyJ3wTKoK9rt5o/4ZyQIfskk5OgTQiVcNz2sMEriQ4TlzwBQHkiulZKjy/WwltvjrU5EkO0MY/PK",
       "openam-session-stateless-blacklist-cache-size" : 10000,
       "statelessEncryptionRsaCertAlias" : "test"
     },
