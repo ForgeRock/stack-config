@@ -48,7 +48,7 @@
     "sun-idrepo-ldapv3-config-time-limit" : 10,
     "sun-idrepo-ldapv3-config-inactive" : "Inactive",
     "sun-idrepo-ldapv3-config-authpw" : null,
-    "sun-idrepo-ldapv3-config-authpw-encrypted" : "AAAAA0FFUwIQwiryn6H8ibSAs9qJLW4+5vBarBAq/qvuoW8kc08qGwDsWWHRHe5AIw==",
+    "sun-idrepo-ldapv3-config-authpw-encrypted" : "AAAAA0FFUwIQ50hgiFbxi/RmWzcdtqCs7+W4wzCJ/wc0UOBqxyVl7qZFVveehRI9bQ==",
     "sun-idrepo-ldapv3-config-people-container-value" : "people",
     "com.iplanet.am.ldap.connection.delay.between.retries" : 1000,
     "_type" : {

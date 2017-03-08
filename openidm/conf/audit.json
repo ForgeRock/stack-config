@@ -86,7 +86,7 @@
                     "access",
                     "authentication"
                 ],
-                "enabled" : false
+                "enabled" : true
             }
         }
     ],

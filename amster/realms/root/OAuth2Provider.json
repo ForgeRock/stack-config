@@ -13,20 +13,20 @@
       "customLoginUrlTemplate" : null,
       "modifiedTimestampAttribute" : null,
       "supportedScopes" : [ "openid|", "email|Your email address", "address|Your postal address", "phone|Your telephone number(s)", "profile|Your personal information" ],
-      "responseTypeClasses" : [ "id_token|org.forgerock.openidconnect.IdTokenResponseTypeHandler", "code|org.forgerock.oauth2.core.AuthorizationCodeResponseTypeHandler", "token|org.forgerock.oauth2.core.TokenResponseTypeHandler" ],
+      "responseTypeClasses" : [ "id_token|org.forgerock.openidconnect.IdTokenResponseTypeHandler", "code|org.forgerock.oauth2.core.AuthorizationCodeResponseTypeHandler", "device_code|org.forgerock.oauth2.core.TokenResponseTypeHandler", "token|org.forgerock.oauth2.core.TokenResponseTypeHandler" ],
       "tokenSigningECDSAKeyAlias" : [ "ES512|es512test", "ES384|es384test", "ES256|es256test" ],
       "hashSalt" : null,
       "moduleMessageEnabledInPasswordGrant" : false,
-      "tokenSigningHmacSharedSecret" : "tvAI09jBCzDNh+zJOdiS24LbGnpu0PzdiCCccco2wRA=",
+      "tokenSigningHmacSharedSecret" : "ubqXdJuZ3YoGbsl4VAJuBBEaR6O8mZL91wVgjEXsP0E=",
       "codeVerifierEnforced" : false,
+      "tokenCompressionEnabled" : false,
       "tokenSigningAlgorithm" : "HS256",
-      "tokenCompressionEnabled" : null,
       "authenticationAttributes" : [ "uid" ],
       "createdTimestampAttribute" : null,
       "defaultScopes" : [ "address", "phone", "openid", "profile", "email" ],
       "displayNameAttribute" : "cn",
       "keypairName" : "test",
-      "clientsCanSkipConsent" : false,
+      "clientsCanSkipConsent" : true,
       "supportedSubjectTypes" : [ "public" ]
     },
     "coreOAuth2Config" : {
@@ -36,7 +36,7 @@
       "codeLifetime" : 120,
       "savedConsentAttribute" : null,
       "issueRefreshTokenOnRefreshedToken" : false,
-      "statelessTokensEnabled" : false
+      "statelessTokensEnabled" : true
     },
     "advancedOIDCConfig" : {
       "allowDynamicRegistration" : false,
