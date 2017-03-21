@@ -1,26 +1,11 @@
-    /**
-     * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
-     *
-     * Copyright 2014 ForgeRock AS. All rights reserved.
-     *
-     * The contents of this file are subject to the terms
-     * of the Common Development and Distribution License
-     * (the License). You may not use this file except in
-     * compliance with the License.
-     *
-     * You can obtain a copy of the License at
-     * http://forgerock.org/license/CDDLv1.0.html
-     * See the License for the specific language governing
-     * permission and limitations under the License.
-     *
-     * When distributing Covered Code, include this CDDL
-     * Header Notice in each file and include the License file
-     * at http://forgerock.org/license/CDDLv1.0.html
-     * If applicable, add the following below the CDDL Header,
-     * with the fields enclosed by brackets [] replaced by
-     * your own identifying information:
-     * "Portions Copyrighted [year] [name of copyright owner]"
-     */
+/*
+ * Copyright 2014-2017 ForgeRock AS. All Rights Reserved
+ *
+ * Use of this code requires a commercial software license with ForgeRock AS.
+ * or with one of its affiliates. All use shall be exclusively subject
+ * to such license between the licensee and ForgeRock AS.
+ */
+
 
 Sample 2b - Bi-directional LDAP <-> Internal Repository
 =======================================================
@@ -123,8 +108,6 @@ Run The Sample In OpenIDM
           } ],
           "resultCount" : 3,
           "pagedResultsCookie" : null,
-          "totalPagedResultsPolicy" : "NONE",
-          "totalPagedResults" : -1,
           "remainingPagedResults" : -1
         }
 
@@ -144,8 +127,6 @@ Run The Sample In OpenIDM
           } ],
           "resultCount" : 3,
           "pagedResultsCookie" : null,
-          "totalPagedResultsPolicy" : "NONE",
-          "totalPagedResults" : -1,
           "remainingPagedResults" : -1
         }
 

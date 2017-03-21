@@ -4,7 +4,7 @@
             "name" : "user",
             "onCreate" : {
                 "type" : "text/javascript",
-                "source" : "require('ui/onCreateUser').setDefaultFields(object);require('ui/onCreateUser').createIdpRelationships(object);require('roles/conditionalRoles').updateConditionalGrantsForUser(object, 'roles');require('ui/onCreateUser').emailUser(object);"
+                "source" : "require('ui/onCreateUser').setDefaultFields(object);require('ui/onCreateUser').createIdpRelationships(object);require('roles/conditionalRoles').updateConditionalGrantsForUser(object, 'roles');"
             },
             "onUpdate" : {
                 "type" : "text/javascript",
@@ -29,7 +29,18 @@
             "actions" : {
                 "resetPassword": {
                     "type": "text/javascript",
-                    "source": "require('ui/resetPassword').sendMail(object);"
+                    "source": "require('ui/resetPassword').sendMail(object, subject, message, passwordRules, passwordLength);",
+                    "globals": {
+                        "subject": "Your password has been reset by an administrator",
+                        "message": "<html><body><p>{{object.userName}}'s new password is: {{password}}</p></body></html>",
+                        "passwordRules": [
+                          { "rule": "UPPERCASE", "minimum": 1 },
+                          { "rule": "LOWERCASE", "minimum": 1 },
+                          { "rule": "INTEGERS", "minimum": 1 },
+                          { "rule": "SPECIAL", "minimum": 1 }
+                        ],
+                      "passwordLength": 16
+                    }
                 }
             },
             "schema" : {
@@ -44,7 +55,6 @@
                     "givenName",
                     "sn",
                     "mail",
-                    "description",
                     "accountStatus",
                     "telephoneNumber",
                     "postalAddress",
@@ -178,13 +188,6 @@
                     },
                     "sn" : {
                         "title" : "Last Name",
-                        "viewable" : true,
-                        "type" : "string",
-                        "searchable" : true,
-                        "userEditable" : true
-                    },
-                    "description" : {
-                        "title" : "Description",
                         "viewable" : true,
                         "type" : "string",
                         "searchable" : true,
