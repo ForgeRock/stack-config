@@ -17,8 +17,8 @@
       "GET" : true
     },
     "createdBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "creationDate" : 1488903974275,
+    "creationDate" : 1490105314978,
     "lastModifiedBy" : "id=amadmin,ou=user,dc=openam,dc=forgerock,dc=org",
-    "lastModifiedDate" : 1488903974275
+    "lastModifiedDate" : 1490105314978
   }
 }

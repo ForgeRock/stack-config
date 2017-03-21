@@ -3,15 +3,15 @@
     "realm" : "/",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "LdapModule",
-    "entityId" : "ldap",
+    "entityId" : "LDAP",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "ldap",
+    "_id" : "LDAP",
     "authenticationLevel" : 0,
     "userSearchFilter" : null,
     "userBindPassword" : null,
-    "userBindPassword-encrypted" : "AAAAA0FFUwIQnusPxKbW5bvRPs2maYytBdVehp1bzdyJwFn55FS3JKyGwinKnkSUVA==",
+    "userBindPassword-encrypted" : "AAAAA0FFUwIQPXx68OJS0+52H0kKugfudYzbdITua43/oajQDiSIRIZo+MUyltX7Xg==",
     "searchScope" : "SUBTREE",
     "returnUserDN" : true,
     "profileAttributeMappings" : [ ],

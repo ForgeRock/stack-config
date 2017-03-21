@@ -14,7 +14,7 @@
       "maxLife" : 5,
       "useSecureCookie" : true,
       "hmacKey" : null,
-      "hmacKey-encrypted" : "AAAAA0FFUwIQkZ1/gwoFJZHqnFDRHUvEQ5YfRXHJA8BesdI9wLqeS34gi0bNENohfRA/KCgPZjFRDBIIoBC4vAjI7X+oo6B76MGCZRz9XGcy",
+      "hmacKey-encrypted" : "AAAAA0FFUwIQCMEnbLdd2fxx7djDMBb4llamYNzfeEUmEJTXD3jy53d0OKAIlOtTUKsdzl0fuK6nurFX01tBpmI4eX21CNEmu9gYLkIeP5mU",
       "enforceClientIP" : false
     },
     "_type" : {

@@ -3,11 +3,11 @@
     "realm" : "/",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "DataStoreModule",
-    "entityId" : "datastore",
+    "entityId" : "DataStore",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "datastore",
+    "_id" : "DataStore",
     "authenticationLevel" : 0,
     "_type" : {
       "_id" : "datastore",

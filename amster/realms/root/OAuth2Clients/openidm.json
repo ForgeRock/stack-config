@@ -19,7 +19,7 @@
     "idTokenEncryptionAlgorithm" : "RSA1_5",
     "userinfoResponseFormat" : "JSON",
     "userpassword" : null,
-    "userpassword-encrypted" : "AAAAA0FFUwIQPjmOfuRlsyaE7YbE9nomWfLC+MfzWjW6MvJVTPdx1Hf2LjdF/ONIYg==",
+    "userpassword-encrypted" : "AAAAA0FFUwIQIyOsSoID7bJQxrCWZuYdOzWrLOOC+RQnm9r35jrq295gPtaqblxjog==",
     "contacts" : [ "" ],
     "jwksCacheTimeout" : 3600000,
     "clientSessionUri" : null,

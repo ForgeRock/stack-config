@@ -11,6 +11,8 @@
     "blacklistCacheSize" : 10000,
     "blacklistPollInterval" : 60,
     "blacklistPurgeDelay" : 1,
+    "agentIdTokenSigningKeyAlias" : "test",
+    "idTokenAuthenticitySecret" : "lGCLmYhSHzyAyruL6jWcTrw9OzHpoxqzeV4Y+TGaRY8=",
     "defaults" : {
       "advancedOAuth2Config" : {
         "scopeImplementationClass" : "org.forgerock.openam.oauth2.OpenAMScopeValidator",

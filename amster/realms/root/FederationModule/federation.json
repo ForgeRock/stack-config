@@ -3,11 +3,11 @@
     "realm" : "/",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "FederationModule",
-    "entityId" : "federation",
+    "entityId" : "Federation",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "federation",
+    "_id" : "Federation",
     "authenticationLevel" : 0,
     "_type" : {
       "_id" : "federation",

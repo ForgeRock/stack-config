@@ -3,11 +3,11 @@
     "realm" : "/",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "SaeModule",
-    "entityId" : "sae",
+    "entityId" : "SAE",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "sae",
+    "_id" : "SAE",
     "authenticationLevel" : 0,
     "_type" : {
       "_id" : "sae",

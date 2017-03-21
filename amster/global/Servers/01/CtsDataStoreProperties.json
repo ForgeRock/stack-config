@@ -30,7 +30,7 @@
         "inherited" : true
       },
       "org.forgerock.services.cts.store.directory.name" : {
-        "value" : "cts-0.cts:389",
+        "value" : "ctsstore-0.ctsstore:389",
         "inherited" : true
       },
       "org.forgerock.services.cts.store.loginid" : {
@@ -41,7 +41,7 @@
         "value" : null,
         "inherited" : false
       },
-      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQ5AmM8z1+FjwFL5N4Ns6V06UAqDzO/wAYNVVzPaS/pWskWwitXFlLDQ==",
+      "org.forgerock.services.cts.store.password-encrypted" : "AAAAA0FFUwIQbrGDRcb8K26AeOfzteeDOo2WY8cMu7y80zkCpGHp0mj6CeZSJHIaHA==",
       "org.forgerock.services.cts.store.heartbeat" : {
         "value" : "10",
         "inherited" : true

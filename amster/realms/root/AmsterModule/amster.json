@@ -3,11 +3,11 @@
     "realm" : "/",
     "amsterVersion" : "14.0.0-SNAPSHOT",
     "entityType" : "AmsterModule",
-    "entityId" : "amster",
+    "entityId" : "Amster",
     "pathParams" : { }
   },
   "data" : {
-    "_id" : "amster",
+    "_id" : "Amster",
     "authenticationLevel" : 0,
     "enabled" : true,
     "authorizedKeys" : "/root/openam/authorized_keys",
